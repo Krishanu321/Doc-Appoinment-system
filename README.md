@@ -38,8 +38,8 @@ project: Doctor Appointment Booking System
 stack: MERN (MongoDB, Express.js, React.js, Node.js)
 
 ### installation:
-  - Step: Clone Repository
-    description: Download the project to your local machine.
+
+    Description: Download the project to your local machine.
     commands:
       - git clone https://github.com/Krishanu321/Doc-Appoinment-system.git
       - cd Doc-Appoinment-system
