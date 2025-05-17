@@ -3,6 +3,7 @@
 A web-based Doctor Appointment Booking System built using the MERN Stack. Users can register, book appointments, and manage doctors through an admin dashboard.
 
 
+![Screenshot (332)](https://github.com/user-attachments/assets/92b28750-0df9-4e77-b7d5-d0a4fe58c575)
 
 ---
 
