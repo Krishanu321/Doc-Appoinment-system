@@ -38,14 +38,14 @@ A web-based Doctor Appointment Booking System built using the MERN Stack. Users 
 project: Doctor Appointment Booking System
 stack: MERN (MongoDB, Express.js, React.js, Node.js)
 
-### installation:
-
-    Description: Download the project to your local machine.
+installation:
+  - step: Clone Repository
+    description: Download the project to your local machine.
     commands:
       - git clone https://github.com/Krishanu321/Doc-Appoinment-system.git
       - cd Doc-Appoinment-system
 
-  - Step: Backend Setup
+  - step: Backend Setup
     description: Install dependencies and configure environment variables.
     commands:
       - cd backend
@@ -60,10 +60,9 @@ stack: MERN (MongoDB, Express.js, React.js, Node.js)
     run:
       server: npm run dev
 
-  - Step: Frontend Setup
+  - step: Frontend Setup
     description: Install frontend packages and start the development server.
     commands:
       - cd ../frontend
       - npm install
       - npm run dev
-
