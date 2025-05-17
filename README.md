@@ -34,38 +34,30 @@ A web-based Doctor Appointment Booking System built using the MERN Stack. Users 
 - **Others:** dotenv, CORS, React Router
 
 ---
+### installation:
+  step_1:
+    title: "Clone the Project"
+    commands:
+      - git clone https://github.com/Krishanu321/Doc-Appoinment-system.git
+      - cd Doc-Appoinment-system
 
-⚙️ Installation Guide (Single Project Folder)
-1️⃣ Clone the Project
-bash
-Copy
-Edit
-git clone https://github.com/Krishanu321/Doc-Appoinment-system.git
-cd Doc-Appoinment-system
-2️⃣ Install Backend Dependencies
-bash
-Copy
-Edit
-cd backend
-npm install
-🛠️ Create a .env file in the backend/ folder:
+  step_2:
+    title: "Install Backend Dependencies"
+    commands:
+      - cd backend
+      - npm install
+    env_file:
+      location: "backend/.env"
+      content: |
+        PORT=5000
+        MONGO_URI=your_mongo_connection_string
+        JWT_SECRET=your_jwt_secret
+    start_server:
+      command: npm run dev
 
-env
-Copy
-Edit
-PORT=5000
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-▶️ Start the backend server:
-
-bash
-Copy
-Edit
-npm run dev
-3️⃣ Install Frontend Dependencies
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-npm run dev
+  step_3:
+    title: "Install Frontend Dependencies"
+    commands:
+      - cd ../frontend
+      - npm install
+      - npm run dev
