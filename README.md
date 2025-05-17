@@ -1,8 +1,7 @@
 # 🩺 Doctor Appointment Booking System
 
-A web-based Doctor Appointment Booking System built using the MERN Stack. It allows users to register, book appointments, and manage doctors through an admin dashboard.
+A web-based Doctor Appointment Booking System built using the MERN Stack. Users can register, book appointments, and manage doctors through an admin dashboard.
 
-![Uploading Screenshot (332).png…]()
 
 
 ---
@@ -36,29 +35,37 @@ A web-based Doctor Appointment Booking System built using the MERN Stack. It all
 
 ---
 
-## ⚙️ Installation Steps
-
-### 1. Clone the Repository
-
-```bash
+⚙️ Installation Guide (Single Project Folder)
+1️⃣ Clone the Project
+bash
+Copy
+Edit
 git clone https://github.com/Krishanu321/Doc-Appoinment-system.git
 cd Doc-Appoinment-system
-
-### 2. Set up Backend
-
+2️⃣ Install Backend Dependencies
+bash
+Copy
+Edit
 cd backend
 npm install
+🛠️ Create a .env file in the backend/ folder:
 
-### Create a .env file inside backend/ and add:
-
+env
+Copy
+Edit
 PORT=5000
 MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_secret_key
+JWT_SECRET=your_jwt_secret
+▶️ Start the backend server:
 
-### Then start the backend server:
+bash
+Copy
+Edit
 npm run dev
-
-3. Setup Frontend
+3️⃣ Install Frontend Dependencies
+bash
+Copy
+Edit
 cd ../frontend
 npm install
 npm run dev
